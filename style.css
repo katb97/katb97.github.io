@@ -74,6 +74,7 @@ nav a:hover{
     border: 3px solid #c2006e;
     border-radius: 20px;
     width: 150px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,4 +83,22 @@ nav a:hover{
 .column:hover {
     background-color: white;
     color: #c2006e;
+}
+
+.favs {
+    background-color: #ffc0cb;
+    padding: 30px 10px;
+}
+
+.button {
+    background-color: #c2006e;
+    width: 200px;
+    padding: 20px 10px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+}
+a.button {
+    color: white;
 }
