@@ -18,6 +18,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+   
 }
 
 nav a{
@@ -46,7 +47,11 @@ nav a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 20%;
-    font-co
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
 }
 
 .tan {
